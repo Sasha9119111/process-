@@ -1,0 +1,110 @@
+
+.main__text {
+    font-size: 36px;
+    /* color: #ed1a50; */
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 50px;
+}
+
+.process__round {
+    display: flex; /* Розташовуємо елементи в один рядок */
+    align-items: center; /* Вирівнюємо по центру вертикально */
+    gap: 10px; /* Відстань між зображенням і текстом */
+}
+
+.process__round img {
+    width: 120px; /* Налаштуйте розмір зображень */
+    height: auto;
+}
+
+h3 {
+    margin: 0; /* Прибираємо відступи у заголовка */
+    font-size: 20px; 
+}
+
+.step {
+    color: #ed1a50; /* Колір заголовків */
+}
+
+
+.process__item {
+    display: flex;
+    gap: 15px; /* Відстань між зображенням і текстовим блоком */
+    align-items: flex-start; /* Вирівнювання по верхньому краю */
+}
+
+.process__content {
+    display: flex;
+    flex-direction: column; /* Розташовуємо заголовок і текст один під одним */
+    margin-top: 20px;
+}
+
+h3 {
+    margin: 0 0 10px 0; /* Відступ вниз для заголовка */
+    font-size: 20px;
+}
+
+.process__desc {
+    margin: 0; /* Забираємо зайвий margin */
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+
+/* beta  test code */
+
+.process__wrapper {
+    display: flex;
+    flex-direction: column; /* Вертикальне вирівнювання елементів */
+    gap: 0px; /* Єдиний відступ між елементами Step */
+}
+
+.process__item {
+    display: flex;
+    gap: 15px; /* Відстань між зображенням і текстом */
+    align-items: flex-start; /* Вирівнювання по верхньому краю */
+}
+
+
+.process__content {
+    display: flex;
+    flex-direction: column; /* Розташування тексту один під одним */
+}
+
+/* beta  test code  2 */
+
+.process__item {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start; /* Вирівнювання по верхньому краю */
+    /* min-height: 150px; Однакова висота для всіх елементів */
+}
+
+.process__round img {
+    width: 120px;
+    height: 120px; /* Додаємо фіксовану висоту */
+    object-fit: cover; /* Уникаємо спотворення зображень */
+}
+
+.process__desc {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.process__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0px; /* Єдиний відступ між елементами Step */
+}
+
+
+
+/* 
+1 добавити картинки 2 нормальні картинки✅
+2 и  пробели однакові між тегами  *✅/
+/* 3  великі пробели які пояляються коли зменьшується ширина екрана *✅/ 
